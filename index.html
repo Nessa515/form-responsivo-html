@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Responsivo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Inscrição</h1>
+        </nav>
+
+        <form>
+            <div class="nome">
+                <label for="nome">Nome:</label>
+                <input type="text" placeholder="Ex: Maria de Oliveira" id="nome">
+            </div>
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="text" placeholder="Ex: maria.oliveira@gmail.com" id="email">
+            </div>
+            <div class="options">
+                <label for="sexo">Sexo:</label>
+                <div class="sexos">
+                    <div class="masculino">
+                        <input type="radio" id="masculino" name="sexo">
+                        <label for="masculino">Masculino:</label>
+                    </div>
+                    <div class="feminino">
+                        <input type="radio" id="feminino" name="sexo">
+                        <label for="feminino">Feminino:</label>
+                    </div>
+                </div>     
+            </div>
+            <div class="curso">
+                <label for="curso">Curso:</label>
+                <select name="curso" id="curso" aria-placeholder="HTML e CSS">
+                    <option value="html">HTML</option>
+                    <option value="html">CSS</option>
+                </select>
+            </div>
+            <div class="descricao">
+                <label for="description">Descreva o atendimento especial:</label>
+                <textarea name="description" id="description" cols="38" rows="8"></textarea>
+            </div>
+
+            <div class="termos">
+                <input type="checkbox" name="termos" id="termos">
+                <label for="termos">Estou de acordo com o termos de serviço</label>
+            </div>
+            <button>Realizar inscrição</button>
+        </form>
+    </header>
+</body>
+</html>
