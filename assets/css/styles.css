@@ -7,6 +7,7 @@
 :root{
     --cor-principal: #FFFFFF;
     --cor-secundaria: #274156;
+    --font: "Quicksand", sans-serif;
 }
 
 header{
@@ -39,7 +40,7 @@ form{
 }
 
 .nome label{
-   font-family: "Quicksand", sans-serif;
+   font-family: var(--font);
    font-size: 14px;
    font-weight: 600;
    margin-bottom: 8px;
@@ -59,7 +60,7 @@ form{
 }
 
 .email label{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font);
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 8px; 
@@ -79,7 +80,7 @@ form{
 }
 
 .options label{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font);
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 8px;
@@ -91,13 +92,13 @@ form{
 }
 
 .feminino label{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font);
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 8px;
 }
 .masculino label{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font);
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 8px;
@@ -112,7 +113,7 @@ form{
 }
 
 .curso label{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font);
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 8px; 
@@ -133,7 +134,7 @@ form{
 }
 
 .descricao label{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font);
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 8px;
@@ -147,14 +148,14 @@ form{
 
 .termos label{
     margin-left: 8px;
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font);
     font-size: 14px;
 }
 
 button{
     background-color: #274156;
     color: #FFFFFF;
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font);
     font-size: 14px;
     font-weight: 400;
     width: 319px;
