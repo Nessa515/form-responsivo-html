@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+:root{
+    --cor-principal: #FFFFFF;
+    --cor-secundaria: #274156;
+}
+
 header{
     display: flex;
     align-items: center;
@@ -19,7 +24,7 @@ nav {
 nav > h1{
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 24px;
-    color: #FFFFFF;
+    color: var(--cor-principal);
     margin: 10px 0px 0px 20px;
 }
 
@@ -43,7 +48,7 @@ form{
 .nome input{
     width: 320px;
     height: 39px;
-    border: 1px #274156 solid;
+    border: 1px var(--cor-secundaria) solid;
     border-radius: 4px;
 }
 
@@ -63,7 +68,7 @@ form{
 .email input{
     width: 320px;
     height: 39px;
-    border: 1px #274156 solid;
+    border: 1px var(--cor-secundaria) solid;
     border-radius: 4px;
 }
 
@@ -116,9 +121,9 @@ form{
 .curso select{
     width: 320px;
     height: 39px;
-    border: 1px #274156 solid;
+    border: 1px var(--cor-secundaria) solid;
     border-radius: 4px;
-    background-color: #FFFFFF;
+    background-color: var(--cor-principal);
 }
 
 .descricao{
